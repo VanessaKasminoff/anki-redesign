@@ -1,19 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
         <p>
-          <a href="#">Anki</a>
+          <Link to='/'>Anki</Link>
         </p>
         <ul>
           <li>
-            <a href="#">Download</a>
+            <Link to='/download'>Download</Link>
           </li>
           <li>
-            <a href="https://docs.ankiweb.net/" target="_blank">
-              Docs
-            </a>
+            <Link to='https://docs.ankiweb.net/' target="_blank" rel="noopener noreferrer">Docs</Link>
           </li>
         </ul>
         <div className="login-signup-container">
