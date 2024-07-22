@@ -5,7 +5,9 @@ function App() {
   return (
     <div id='app'>
       <Navbar/>
-      <h1>Landing Page</h1>
+      <section className='hero-section'>
+        <h1>Landing Page</h1>
+      </section>
     </div>
   )
 };

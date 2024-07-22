@@ -1,3 +1,5 @@
+@import 'variables';
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -13,7 +15,7 @@ nav {
         font-weight: 500;
 
         a {
-            color: #004C99;
+            color: $navy-blue;
         }
     }
 
@@ -30,10 +32,10 @@ nav {
             font-size: 1.3rem;
             
             a {
-                color: #2C2C2C;
+                color: $dark-gray;
 
                 &:hover {
-                    color: #004C99;
+                    color: $navy-blue;
                 }
             }
         }
@@ -53,20 +55,20 @@ nav {
         }
 
         .login {
-            color: #2C2C2C;
+            color: $dark-gray;
             transition: all ease 0.4s;
             &:hover {
-                background-color: #007BFF;
-                color: #FFF;
+                background-color: $primary-color;
+                color: $white;
             }
         }
 
         .sign-up {
-            color: #FFF;
-            background-color: #2C2C2C;
+            color: $white;
+            background-color: $dark-gray;
             transition: all ease 0.4s;
             &:hover {
-                background-color: #007BFF;
+                background-color: $primary-color;
             }
         }
     }
