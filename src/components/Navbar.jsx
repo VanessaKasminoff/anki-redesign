@@ -9,7 +9,7 @@ const Navbar = () => {
         </p>
         <ul>
           <li>
-            <Link to='/download'>Download</Link>
+            <Link to='/downloads'>Download</Link>
           </li>
           <li>
             <Link to='https://docs.ankiweb.net/' target="_blank" rel="noopener noreferrer">Docs</Link>
