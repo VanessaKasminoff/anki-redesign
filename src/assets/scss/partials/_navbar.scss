@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+
+    p {
+        font-size: 2.2rem;
+        font-weight: 500;
+
+        a {
+            color: #004C99;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20%;
+
+        li {
+            font-size: 1.3rem;
+            
+            a {
+                color: #2C2C2C;
+
+                &:hover {
+                    color: #004C99;
+                }
+            }
+        }
+    }
+
+    .login-signup-container {
+        display: flex;
+        gap: 20px;
+
+        button {
+            border: none;
+            width: 110px;
+            height: 45px;
+            font-size: 1.3rem;
+            cursor: pointer;
+            // border-radius: 100px;
+        }
+
+        .login {
+            color: #2C2C2C;
+        }
+
+        .sign-up {
+            color: #FFF;
+            background-color: #007BFF;
+        }
+    }
+}
