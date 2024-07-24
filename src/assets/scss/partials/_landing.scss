@@ -22,7 +22,10 @@
                 font-weight: 600;
             }
             .orange-color {
-                color: $orange;
+                background-image: linear-gradient(180deg, $orange, $orange);
+                background-repeat: no-repeat;
+                background-position: 4px bottom;
+                background-size: 100% 10px;
             }
 
             button {

@@ -63,6 +63,12 @@ nav .login-signup-container button {
   border-radius: 5px;
   cursor: pointer;
 }
+nav .login-signup-container button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.254);
+}
+nav .login-signup-container button:active {
+  box-shadow: none;
+}
 nav .login-signup-container .login {
   color: #2C2C2C;
   transition: all ease 0.4s;
@@ -136,7 +142,10 @@ nav .login-signup-container .sign-up:hover {
   font-weight: 600;
 }
 .hero-section .hero-content .hero-desc-container .orange-color {
-  color: #FFA500;
+  background-image: linear-gradient(180deg, #FFA500, #FFA500);
+  background-repeat: no-repeat;
+  background-position: 4px bottom;
+  background-size: 100% 10px;
 }
 .hero-section .hero-content .hero-desc-container button {
   display: flex;

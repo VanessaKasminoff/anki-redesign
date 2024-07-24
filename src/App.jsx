@@ -1,5 +1,7 @@
 import "./assets/css/style.css";
 import Navbar from "./components/Navbar";
+import FeatureCard from "./components/FeatureCard";
+import data from './assets/data/features-data.json'
 
 function App() {
   return (
@@ -26,6 +28,20 @@ function App() {
               Download
             </button>
           </div>
+        </div>
+      </section>
+      <section className="features-section">
+        <div className="features-content">
+          {data.map((feature, index) => {
+            return (
+              <FeatureCard
+              key={index}
+              title={feature.title}
+              image={feature.image}
+              description={feature.description}
+            />
+            )
+          })}
         </div>
       </section>
     </div>
