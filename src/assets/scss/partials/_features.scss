@@ -1,0 +1,35 @@
+@import 'variables';
+
+.features-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border: 1px solid red;
+
+    .features-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px 25px;
+        max-width: 1400px;
+        border: 1px solid red;
+    
+        .feature-card-container {
+            width: 30%;
+            border: 1px solid red;
+
+            .feature-img {
+                width: 50px;
+            }
+            
+            h2 {
+                font-size: 2rem;
+            }
+        
+            p {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

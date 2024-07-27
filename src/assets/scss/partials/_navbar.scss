@@ -1,80 +1,85 @@
 @import 'variables';
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: auto;
+.nav-section {
+    width: 100%;
+    background-color: $light-gray;
     position: sticky;
     top: 0;
-    padding-top: 10px;
-
-    p {
-        font-size: 2.2rem;
-        font-weight: 500;
-
-        a {
-            color: $navy-blue;
-        }
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    ul {
+    nav {
         display: flex;
-        list-style: none;
-        gap: 20%;
-
-        li {
-            font-size: 1.3rem;
-            
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: auto;
+        padding-top: 10px;
+        background-color: $light-gray;
+    
+        p {
+            font-size: 2.2rem;
+            font-weight: 500;
+    
             a {
-                color: $dark-gray;
-
-                &:hover {
-                    color: $navy-blue;
+                color: $navy-blue;
+            }
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20%;
+    
+            li {
+                font-size: 1.3rem;
+                
+                a {
+                    color: $dark-gray;
+    
+                    &:hover {
+                        color: $navy-blue;
+                    }
                 }
             }
         }
-    }
-
-    .login-signup-container {
-        display: flex;
-        gap: 20px;
-
-        button {
-            border: none;
-            width: 110px;
-            height: 45px;
-            font-size: 1.3rem;
-            border-radius: 5px;
-            cursor: pointer;
-            &:hover {
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.254);
+    
+        .login-signup-container {
+            display: flex;
+            gap: 20px;
+    
+            button {
+                border: none;
+                width: 110px;
+                height: 45px;
+                font-size: 1.3rem;
+                border-radius: 5px;
+                cursor: pointer;
+                &:hover {
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.254);
+                }
+                &:active {
+                    box-shadow: none;
+                }
             }
-            &:active {
-                box-shadow: none;
+    
+            .login {
+                color: $dark-gray;
+                transition: all ease 0.4s;
+                &:hover {
+                    background-color: $primary-color;
+                    color: $white;
+                }
             }
-        }
-
-        .login {
-            color: $dark-gray;
-            transition: all ease 0.4s;
-            &:hover {
-                background-color: $primary-color;
+    
+            .sign-up {
                 color: $white;
-            }
-        }
-
-        .sign-up {
-            color: $white;
-            background-color: $dark-gray;
-            transition: all ease 0.4s;
-            &:hover {
-                background-color: $primary-color;
+                background-color: $dark-gray;
+                transition: all ease 0.4s;
+                &:hover {
+                    background-color: $primary-color;
+                }
             }
         }
     }

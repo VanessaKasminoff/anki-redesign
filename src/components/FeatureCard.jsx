@@ -3,8 +3,8 @@ import React from "react";
 const FeatureCard = ({title, image, description}) => {
     return (
         <div className="feature-card-container">
+            <img className="feature-img" src={image} alt={title} />
             <h2>{title}</h2>
-            <img src={image} alt={title} />
             <p>{description}</p>
         </div>
     )
