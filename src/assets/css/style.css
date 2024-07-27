@@ -180,20 +180,26 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  border: 1px solid red;
+  margin-top: 60px;
 }
 .features-section .features-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px 25px;
+  gap: 45px 50px;
   max-width: 1400px;
-  border: 1px solid red;
 }
 .features-section .features-content .feature-card-container {
   width: 30%;
-  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FFF;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.186);
+  transition: all ease 0.4s;
+}
+.features-section .features-content .feature-card-container:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.285);
 }
 .features-section .features-content .feature-card-container .feature-img {
   width: 50px;
