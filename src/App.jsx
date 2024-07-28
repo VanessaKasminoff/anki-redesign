@@ -44,6 +44,11 @@ function App() {
           })}
         </div>
       </section>
+      <section className="about-section">
+          <h2>Remember Anything</h2>
+          <h2>Remember Anywhere</h2>
+          <h2>Remember Effeciently</h2>
+      </section>
     </div>
   );
 }

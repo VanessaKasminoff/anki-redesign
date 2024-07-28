@@ -4,7 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    padding: 60px 0;
 
     .features-content {
         display: flex;
@@ -19,10 +19,10 @@
             text-align: center;
             border-radius: 10px;
             background-color: $white;
-            box-shadow: 0 4px 5px rgba(0, 0, 0, 0.186);
+            box-shadow: 0 4px 5px #282e3e14;
             transition: all ease 0.4s;
             &:hover {
-                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.285);
+                box-shadow: 0 10px 10px #282e3e42;
             }
 
             .feature-img {

@@ -34,7 +34,7 @@ body {
   background-color: #F0F0F0;
 }
 .nav-section nav p {
-  font-size: 2.2rem;
+  font-size: 2.7rem;
   font-weight: 500;
 }
 .nav-section nav p a {
@@ -49,7 +49,7 @@ body {
   gap: 20%;
 }
 .nav-section nav ul li {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .nav-section nav ul li a {
   color: #2C2C2C;
@@ -65,7 +65,7 @@ body {
   border: none;
   width: 110px;
   height: 45px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -180,7 +180,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  padding: 60px 0;
 }
 .features-section .features-content {
   display: flex;
@@ -195,11 +195,11 @@ body {
   text-align: center;
   border-radius: 10px;
   background-color: #FFF;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.186);
+  box-shadow: 0 4px 5px rgba(40, 46, 62, 0.0784313725);
   transition: all ease 0.4s;
 }
 .features-section .features-content .feature-card-container:hover {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.285);
+  box-shadow: 0 10px 10px rgba(40, 46, 62, 0.2588235294);
 }
 .features-section .features-content .feature-card-container .feature-img {
   width: 50px;
