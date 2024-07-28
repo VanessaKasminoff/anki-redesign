@@ -10,7 +10,7 @@ function App() {
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-img-container">
-            <img src="https://placehold.co/600x400" alt="Placeholder image" />
+            <img className="hero-img" src="https://placehold.co/600x400" alt="Placeholder image" />
           </div>
           <div className="hero-desc-container">
             <h1><span className="orange-color">Powerful</span>, intelligent flash cards</h1>
@@ -45,9 +45,9 @@ function App() {
         </div>
       </section>
       <section className="about-section">
-          <h2>Remember Anything</h2>
-          <h2>Remember Anywhere</h2>
-          <h2>Remember Effeciently</h2>
+          <h2>Remember Anything,</h2>
+          <h2>Anywhere,</h2>
+          <h2>Effeciently</h2>
       </section>
     </div>
   );
