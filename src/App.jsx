@@ -1,7 +1,7 @@
 import "./assets/css/style.css";
 import Navbar from "./components/Navbar";
 import FeatureCard from "./components/FeatureCard";
-import data from './assets/data/features-data.json'
+import data from "./assets/data/features-data.json";
 
 function App() {
   return (
@@ -10,11 +10,21 @@ function App() {
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-img-container">
-            <img className="hero-img" src="https://placehold.co/600x400" alt="Placeholder image" />
+            <img
+              className="hero-img"
+              src="/images/Anki-icon.png"
+              alt="Placeholder image"
+            />
           </div>
           <div className="hero-desc-container">
-            <h1><span className="orange-color">Powerful</span>, intelligent flash cards</h1>
-            <h2>Remembering things just became <span className="orange-color">easier</span></h2>
+            <h1>
+              <span className="orange-color">Powerful</span>, intelligent flash
+              cards
+            </h1>
+            <h2>
+              Remembering things just became{" "}
+              <span className="orange-color">easier</span>
+            </h2>
             <button>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -35,19 +45,26 @@ function App() {
           {data.map((feature, index) => {
             return (
               <FeatureCard
-              key={index}
-              title={feature.title}
-              image={feature.image}
-              description={feature.description}
-            />
-            )
+                key={index}
+                title={feature.title}
+                image={feature.image}
+                description={feature.description}
+              />
+            );
           })}
         </div>
       </section>
       <section className="about-section">
-          <h2>Remember Anything,</h2>
-          <h2>Anywhere,</h2>
-          <h2>Effeciently</h2>
+        <h2>
+          <div>Remember</div>
+          <div className="inner-about-words">
+            <span>
+              Anything <br />
+              Anywhere <br />
+              Effeciently <br />
+            </span>
+          </div>
+        </h2>
       </section>
     </div>
   );
