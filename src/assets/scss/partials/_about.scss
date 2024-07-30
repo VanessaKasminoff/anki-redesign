@@ -4,7 +4,7 @@
 .about-section {
     width: 100%;
     background-color: $primary-color;
-    padding: 60px 0;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +54,28 @@
                     }
                 }
                 @include animate(scroll, 8s, ease, infinite)
+            }
+        }
+    }
+
+    .about-expanded-container {
+        width: 100%;
+        margin-top: 60px;
+        background-color: $light-gray;
+
+        .features-expanded {
+            margin: auto;
+            max-width: 1400px;
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+
+            .features-expanded-card {
+                border: 1px solid black;
+            }
+
+            .card-2 {
+                
             }
         }
     }

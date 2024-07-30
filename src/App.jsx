@@ -65,6 +65,30 @@ function App() {
             </span>
           </div>
         </h2>
+        <div className="about-expanded-container">
+          <div className="features-expanded">
+            <div className="features-expanded-card card-1">
+              <img src="https://placehold.co/600x400"/>
+              <h2>Lorem Ipsum</h2>
+              <p>Egestas magna id rhoncus torquent sem condimentum a suspendisse. Iaculis curabitur ullamcorper convallis erat metus netus. Urna maximus sed turpis, suspendisse lobortis lacinia. Tempor lacus inceptos placerat risus inceptos nec ornare. </p>
+            </div>
+            <div className="features-expanded-card card-2">
+              <img src="https://placehold.co/600x400"/>
+              <h2>Lorem Ipsum</h2>
+              <p>Egestas magna id rhoncus torquent sem condimentum a suspendisse. Iaculis curabitur ullamcorper convallis erat metus netus. Urna maximus sed turpis, suspendisse lobortis lacinia. Tempor lacus inceptos placerat risus inceptos nec ornare. </p>
+            </div>
+            <div className="features-expanded-card card-3">
+              <img src="https://placehold.co/600x400"/>
+              <h2>Lorem Ipsum</h2>
+              <p>Egestas magna id rhoncus torquent sem condimentum a suspendisse. Iaculis curabitur ullamcorper convallis erat metus netus. Urna maximus sed turpis, suspendisse lobortis lacinia. Tempor lacus inceptos placerat risus inceptos nec ornare. </p>
+            </div>
+            <div className="features-expanded-card card-4">
+              <img src="https://placehold.co/600x400"/>
+              <h2>Lorem Ipsum</h2>
+              <p>Egestas magna id rhoncus torquent sem condimentum a suspendisse. Iaculis curabitur ullamcorper convallis erat metus netus. Urna maximus sed turpis, suspendisse lobortis lacinia. Tempor lacus inceptos placerat risus inceptos nec ornare. </p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

@@ -139,10 +139,9 @@ body {
   align-items: center;
   max-width: 1400px;
   margin: auto;
-  gap: 10%;
 }
 .hero-section .hero-content .hero-img-container .hero-img {
-  border-radius: 10px;
+  width: 70%;
 }
 .hero-section .hero-content .hero-desc-container h1 {
   font-size: 2.5rem;
@@ -218,7 +217,7 @@ body {
 .about-section {
   width: 100%;
   background-color: #007BFF;
-  padding: 60px 0;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -267,6 +266,21 @@ body {
   95% {
     top: 0;
   }
+}
+.about-section .about-expanded-container {
+  width: 100%;
+  margin-top: 60px;
+  background-color: #F0F0F0;
+}
+.about-section .about-expanded-container .features-expanded {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.about-section .about-expanded-container .features-expanded .features-expanded-card {
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */
