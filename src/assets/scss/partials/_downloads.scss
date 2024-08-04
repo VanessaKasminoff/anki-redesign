@@ -1,0 +1,14 @@
+@import 'variables';
+
+.downloads-section {
+    width: 100%;
+    background-color: $white;
+
+    .downloads-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
