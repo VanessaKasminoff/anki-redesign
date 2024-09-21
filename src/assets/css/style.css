@@ -289,9 +289,38 @@ body {
 }
 .downloads-section .downloads-content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 2%;
+}
+.downloads-section .downloads-content-container .downloads-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border: 1px solid red;
+}
+.downloads-section .downloads-content-container .downloads-column .download-icon {
+  height: 100px;
+  width: 100px;
+}
+.downloads-section .downloads-content-container .downloads-column .download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: #007BFF;
+  color: #FFF;
+  border: none;
+  width: 60%;
+  height: 20%;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.downloads-section .downloads-content-container .downloads-column .download-button svg {
+  fill: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
